@@ -56,7 +56,7 @@ fastify.register(fastifyStatic, {
 fastify.server.on("listening", () => {
 	const address = fastify.server.address();
 
-	// by default we are listening on 0.0.0.0 (every interface)
+	// by default we are listening on 0.0.0.0 (every interface))
 	// we just need to list a few
 	console.log("Listening on:");
 	console.log(`\thttp://localhost:${address.port}`);
